@@ -1,0 +1,502 @@
+html {
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)),
+  url(../img/aqua.jpg) repeat center center fixed;
+  background-size: 100% auto;
+  background-repeat: repeat;
+}
+
+body {
+  font-family: Helvetica, serif;
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  color: #FFF;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  margin-top: 3%;
+  width: 200px;
+  height: 400px;
+}
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
+
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+		
+.icons-p{
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+  }
+  .icon-p{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%;
+  line-height: 1em;
+  }
+  
+.top-p {
+  text-align: center;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+  font-family: 'Courgette', cursive;
+}
+
+.bot-p {
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 2em;
+  color: #FFF;
+  font-family: 'Courgette', cursive;
+}
+
+.skills-list {
+  color: #FFF;
+  list-style: none;
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Lobster', cursive;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+ h1 {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 5%;
+  color: #FFF;
+}  
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
+
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
+ .top-p {
+   text-align: center;
+   margin-top: 10%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: .75em;
+   line-height: 1em;
+   color: #FFF;
+ }
+
+ .bot-p {
+   text-align: center;
+   margin-top: 5%;
+   margin-left: 10%;
+   margin-right: 10%;
+   font-size: .75em;
+   line-height: 1em;
+   color: #FFF;
+ }
+
+ .skills-list {
+   color: #FFF;
+   list-style: none;
+   text-align: center;
+   font-size: .5em;
+   margin-top: 7%;
+ }
+
+ .skills-list li {
+   display: inline-block;
+   padding: 10px;
+   font-weight: bold;
+   font-size: .5em;
+ }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    color: #FFF;
+  }
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
+
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
+  .top-p {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 3em;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+
+  h1 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 5%;
+    color: #FFF;
+  }
+
+  .top-p {
+    text-align: center;
+    margin-top: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 1em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    margin-top: 7%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 5em;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+
+#dropdown
+{	background: red;
+	float: left;
+	width: 7%;
+	height: 50%;
+	border: double;
+	border-color: #00274c;}
+
+#dropdown li
+{	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	font: bold 11px arial}
+
+#dropdown li a
+{	display: block;
+	margin: 0 1px 0 0;
+	padding: 4px 10px;
+	width: 60px;
+	background: #00274c;
+	color: red;
+	text-align: center;
+	text-decoration: none}
+
+#dropdown li a:hover
+{	background: #00274c;}
+
+#dropdown div
+{	position: absolute;
+	visibility: hidden;
+	margin: 0;
+	padding: 0;
+	background: #EAEBD8;
+	border: 1px solid #5970B2}
+
+	#dropdown div a
+	{	position: relative;
+		display: block;
+		margin: 0;
+		padding: 5px 10px;
+		width: auto;
+		white-space: nowrap;
+		text-align: left;
+		text-decoration: none;
+		background: #00274c;
+		color: red;
+		font: 11px arial}
+
+	#dropdown div a:hover
+	{	background: red;
+		color: white}
+    
+  .top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+
+  .top-p {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .bot-p {
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    color: #FFF;
+  }
+
+  .skills-list {
+    color: #FFF;
+    list-style: none;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .skills-list li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+}

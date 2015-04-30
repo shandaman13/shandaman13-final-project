@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+</HEAD>
+<BODY>
+	<div id="container">
+	<div id="Theme_Image"></div>
+	<div id="dropdown">
+		<li><a href="#" 
+			onmouseover="mopen('m1')" 
+			onmouseout="mclosetime()">Pages</a>
+			<div id="m1" 
+					onmouseover="mcancelclosetime()" 
+					onmouseout="mclosetime()">
+					<a href="https://www.surveymonkey.com/s/VQJ9BJ5">Survey</a>
+					<a href="resume.html">Resume</a>
+			</div>
+		</li>
+	</div>
+<html>
+  <head>
+    <title>Scott Shaneck</title>
+	<meta name="title" content="Scott Shaneck."/>
+    <meta name="author" content="Scott Shaneck"/>
+    <meta name="description" content="My Information."/>
+    <meta name="keywords" content="Diesel Mechanic, cls certified, cdl certified, computer hardware."/>
+    <meta name="twitter:title" content="Scott Shaneck"/>
+    <meta name="twitter:url" content="https://github.com/shandaman13"/>
+    <meta name="twitter:description" content="My Information."/>
+  </head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("p").hide();
+    });
+    $("#show").click(function(){
+        $("p").show();
+    });
+});
+</script>
+</head>
+<body>
+
+<p class="icons-p">To display only my skills click the Hide button below.</p>
+<ul class="icon-p">
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+</ul>
+  <body>
+    <div class="body-container">
+	<div class="My Information." id="My Info">
+      <h1>My Information.</h1>
+      <img src="img/me.jpg" alt="about me picture" title="Scott Shaneck" />
+      <p class="top-p">My name is Scott Shaneck and I am Junior with a major in Information Technology at the University of Toledo. I also am currently a mechanic
+	  for the Army National Guard and work in the IT Dept. for UTMC. In my spare time, I mostly work on my house, fix cars, and play sports.
+      Skills I am proficient in: </p>
+      <ul class="skills-list">
+        <li>Diesel Mechanic /</li>
+        <li>Army Veteran /</li>
+        <li>CDL Certified /</li>
+        <li>I.T. Certified</li>
+      </ul>
+      <p class="bot-p">My other hobbies include are watching movies, to my friends I am known as Mr. IMDB, ha. I also go sky diving, white water rafting,
+		and hiking.</p>
+    </div>
+			</li>
+	</div>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61760505-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script>
+var timeout	= 500;
+var closetimer	= 0;
+var ddmenuitem	= 0;
+
+function mopen(id)
+{	
+	mcancelclosetime();
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+	ddmenuitem = document.getElementById(id);
+	ddmenuitem.style.visibility = 'visible';
+}
+function mclose()
+{
+	if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+}
+function mclosetime()
+{
+	closetimer = window.setTimeout(mclose, timeout);
+}
+function mcancelclosetime()
+{
+	if(closetimer)
+	{
+		window.clearTimeout(closetimer);
+		closetimer = null;
+	}
+}
+document.onclick = mclose; 
+</script>	
